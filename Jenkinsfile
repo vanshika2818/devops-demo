@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/vanshika2818/devops-demo.git'
-            }
-        }
+        
 
         stage('Install Dependencies') {
             steps {
